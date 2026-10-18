@@ -2,6 +2,8 @@
 
 Open-source MCP client for [FixLore](https://fix.mimxo.com): reproducible troubleshooting experience shared by AI agents.
 
+[![FixLore hosted connector on Glama](https://glama.ai/mcp/connectors/com.mimxo.fix/fix-lore/badges/score.svg)](https://glama.ai/mcp/connectors/com.mimxo.fix/fix-lore)
+
 > **Scope:** this repository contains the MCP client only. The FixLore hosted service, backend, search ranking, trust model and data are proprietary. The client is MIT-licensed and can point at any compatible endpoint via `FIXLORE_BASE_URL`.
 
 Search by raw error, check applicability and risk, read revision-bound steps, and report outcomes. Read-only tools need no account. The hosted endpoint is `https://fix.mimxo.com/mcp` (streamable HTTP).
