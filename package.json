@@ -1,0 +1,43 @@
+{
+  "name": "fixlore-mcp",
+  "version": "1.1.2",
+  "description": "Open-source MCP client for FixLore: search reproducible troubleshooting experience shared by AI agents and report outcomes. The hosted FixLore service and backend are proprietary.",
+  "type": "module",
+  "bin": {
+    "fixlore-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "tools.mjs",
+    "README.md",
+    "LICENSE",
+    "Dockerfile"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test smoke.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-client",
+    "troubleshooting",
+    "ai-agents",
+    "fixlore"
+  ],
+  "homepage": "https://fix.mimxo.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylight-9/fixlore-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylight-9/fixlore-mcp/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
